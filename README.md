@@ -32,7 +32,7 @@ This tutorial outlines the installation of a virtual machine running Windows 10,
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/803a9676-3265-46cd-b9c8-b8c415790936"/>
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/4d0bee33-04ea-48bf-8d2e-6f764ce8523c"/>
 </p>
 <p>
 First once you are in Azure, click on Resource Groups or you can search it up in the search bar.
@@ -40,7 +40,7 @@ First once you are in Azure, click on Resource Groups or you can search it up in
 <br />
 
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/5618569a-c31c-475f-9399-3e9e0bb4a092"/>
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/0d1e8141-d7fc-4c1b-84c9-76fed61ed0ce"/>
 </p>
 <p>
 Next we are going to click create resource group
@@ -48,171 +48,171 @@ Next we are going to click create resource group
 <br />
 
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/90cc2256-4cbe-4cde-ba96-dad2857a2baf"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/388e21ce-cad0-46b8-8bc6-ada943731b97"
 <p>
 The next page we are going to make sure its under a Azure subscription, then the name of the resource group will be rg-1 and the region in US West US 3
 </p>
 <br />
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/916d6edd-e342-4411-8907-7f2fd8fd05d6"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/54a499f6-cce7-4cf2-91e6-c7a2d047c518"
 <p>
   
 Next we are going to make sure on the top left it says Validation passed with a green check then at the bottom click create and the resource group will be created.
 </p>
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/37bf517e-d482-49f1-b418-bf15cb81c961"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/a352f1a3-81bc-4088-a7f8-140ce798c67b"
 <p>
   
 Then once you go back into the Resource Group you will see that it was created under name and in the top right corner of the page.
 </p>
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/cf8c942b-f07a-4b33-ae3a-71fddf3e43ca"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/d503d5d1-0b3c-44a9-94e6-7046d9d764ab"
 <p>
   
 Next type in virtual machine in the azure search bar and we are going to create a virtual machine you can click create on the top left or create in the middle of the screen.
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/a63a0255-c90c-4ce5-bc91-603b0f689d4c"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/68f68298-de96-49b3-8f37-1a450bad0a2f"
 <p>
   
 Now click Azure virtual machine as shown in the image above.
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/c170a3ea-a7a4-4f60-a5fa-57930f8ae3bf"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/68dab5ec-5351-44fb-9d44-6dbd3d873575"
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/71b52e5c-787e-49cc-901d-d45b93534d3f"  
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/ee5d94f2-282d-4055-aaa2-6d3e13a268d3"  
 <p>
   
 Next click the Resource Group and click rg-1 (Remember this is the one we made)
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/f5017b82-09fe-4c4d-af28-d6e336944788"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/9a403d30-287d-4c32-a7c4-c21071fabe49"
 <p>
   
 Now under Virtual Machine Name type VM1, Region needs to be US West US 3, Image needs to be Windows 10 Pro version 22H2 x64 Gen2, and the Size needs to be Standard E2s_v3.
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/021c5768-419b-4086-8312-ec876b3648f5"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/efb0d977-7b44-49ba-9ded-24fee80137e5"
 <p>
   
 For Username type labuser and Password can be similar to the special characters, and capitals as shown 907405FIRE$green. After the password you need to check the box by Licensing. 
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/41db6636-cd26-4647-a3eb-3e047d23d126"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/d69be498-b1a9-45e5-9459-17cb185782a8"
 <p>
   
 Once its done go the Networking tab and make sure virtual network, subnet, and public ip all says (new). 
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/51c065d6-d30a-4f64-aa7c-d783ac32c63d"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/80aef843-8a92-49ce-a305-3c9fc5968012"
 <p>
   
 Then you can go to review and create, when it passes through it will say Validation passed in the top left then you can press Create at the bottom left to make the Virtual Machine. 
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/316f24ba-b566-4901-b7e3-5094f7f6a446"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/a3d69c50-6f22-4d4a-a5ad-576f72e784ce"
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/3c14da8f-5217-4d45-9fb2-bf19e3d49a07" 
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/6bac7907-dc24-49d0-8c6a-0324b767db92" 
   
 You know the Virtual Machine is created once it Say Your Deployment is Complete. Then go to search bar and type Virtual Machine and you should see VM1 that we created on the screen overview page.
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/c18e850e-bd29-431e-956d-704e5232ee01"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/dc481d82-fa7c-4464-8b4e-b48d3c5a8049"
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/8960dd09-ec12-4777-8696-ca637b406fcd"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/f399d089-8d94-45c7-ab6e-76b01e3ee893"
 <p>
   
 Click VM1 and then go to the right side where the Public IP addresses is and click the copy symbol on the right. Then go to your search bar on your PC and type Remote Desktop Connection and open the app. 
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/6f9f2f60-524d-43d1-8203-1f810a09b4d5"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/5cdbf126-fad9-474d-badb-99e0266fc377"
 <p>
   
 Next you paste VM1 public IP in the computer section in the Remote Desktop Connection (You can press Ctrl + V to paste the IP address in the computer section). and then type yes to allow the connection
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/51a8a636-5511-4ca1-b24f-8eb778ca331b"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/8f3eec77-7fe3-49c2-b203-b127da649297"
 <p>
   
 Then type the user name labuser and the password you made.  
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/1e29a059-7bf2-4092-9a18-0a7e37cc38eb"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/32c98164-ecf5-4f43-9e14-df23d7475ab7"
 <p>
   
 It should look like the image above.
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/1e29a059-7bf2-4092-9a18-0a7e37cc38eb"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/71d2c7e6-b51c-4f3d-be91-0c1f0e601fa0"
 <p>
   
 It should look like the image above.
   
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/30b657b4-8b45-46f7-8ad2-2bec8699ed35"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/62cb58ea-78c3-4068-873b-d662740921d6"
 <p>
   
 Your screen should load Virtual Machine 1 like the image above.
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/301a256c-ad44-414a-92d0-14311af964b1"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/96a12cbb-e2ce-4ed7-b905-f8cd8b3c8019"
 <p>
   
 Next all of the following click no.
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/338a5665-86e0-4ee6-b610-b5df37809df2"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/313f8b4a-b094-48bd-be8a-e5b272bdcc30"
 <p>
   
 Then press Yes for the Networks tab that appears on the right side of the Virtual Machine.
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/0470a2c6-2207-4831-b4bb-69f8b1fda187"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/f5a463bc-fc88-4c9b-9bed-06c5b9511290"
 <p>
   
 Type Command Prompt in the search bar and press enter to open the app.
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/607d1b85-5616-4036-9d62-52f7fcc0af77"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/bc5af93b-9469-4f40-9f65-4a5996fd4f10"
 <p>
   
 Once the app opens the user should be the one we created labuser.
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/b7dd2cf4-3978-4447-8980-791d1f4ac075"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/ad0f6aca-b14a-4af4-9ed3-13bc27f7e0a9"
 <p>
   
 Next click the command line and type ipconfig this is going to find your computer IP address.
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/fbabbf02-2aa0-47f6-8ade-0c5ca987e7b4"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/2cfe3a59-0f31-4fb6-ada5-a33e3f06ad8f"
 <p>
   
 We can also type ipconfig /all this will show your MAC address and your DNS server.
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/ee774161-c20e-4b30-86d3-2b5c8e4528a6"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/69ef9285-f631-46ab-aca0-6f034b47dda7"
 <p>
   
 Then type ipconfig /all | findstr DNS this will find a specific string of data of DNS which is in ipconfig to find what you need.
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/18c9f2d5-ddaf-4615-9d87-5216fa771d23"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/ab579151-3e70-42db-885e-95d634e139b0"
 <p>
   
 We can also give us a new IP address by using ipconfig /release
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/969a8262-cb70-40a0-b444-a7bc603a4fe9"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/a60290d9-d67a-4aac-9b96-b92413e391a6"
 <p>
   
 Then type ipconfig /renew this is going to reach out to DHCP server to get a new IP address
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/a8790ac6-c93f-45bd-85b3-07bbcec913a0"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/661aacf2-0f53-4a9b-b5f5-773c9a21274a"
 <p>
   
 Then type ipconfig /displaydns this shows all the websites and there IP address
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/85f6255a-eea6-4da2-bdd5-d0ca1a85dceb"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/d56a509f-2520-4ca7-961e-87339f9d8c6b"
 <p>
   
 After the command it will show all the websites as show above 
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/7e1fe35f-99f9-4739-8582-b73265956f1e"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/add6c722-ed40-46fd-b1f1-87febc533f6e"
 <p>
   
 Next to copy the output of a command to your clipboard type the following ipconfig /displaydns | clip
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/38c3506a-9bc5-424b-bdea-1c914642d181"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/ea212d56-6b53-4511-a0cc-0337031323d4"
 <p>
   
 To delete your DNS resolver cache on your computer type ipconfig /flushdns in the command line this will remove any old DNS entries
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/a5282f44-0b74-4fc2-8329-c2c7bf17ca94"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/20654b02-5bfd-41e5-b8a4-7188fbdb491a"
 <p>
   
 Next to troubleshoot DNS type nslookup www.google.com this will show www.google.com IP address
 <p>
-<img src="https://github.com/Jacobsushi54/CmdCommandsPart1/assets/142194385/5d2d4ee7-3ecc-4f2a-ba5a-329510adbc21"
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/fc2d5705-6f49-41da-bd1e-5bc612464e73"
 <p>
   
 Then finally we can clear the screen of the command line by typing cls

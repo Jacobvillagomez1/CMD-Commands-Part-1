@@ -2,7 +2,9 @@
 <p align="center">
 <img src="https://www.wallpaperflare.com/static/79/573/83/code-minimalism-microsoft-windows-command-lines-wallpaper.jpg"/>
 </p>
-
+<p align="center">
+<img src="https://github.com/Jacobvillagomez1/CMD-Commands-Part-1/assets/143027686/5a1b3c58-bcc2-48b0-bdb9-93bfc287b09c"/>
+</p>
 <h1>CMD Virtual Machine Installation Commands</h1>
 This tutorial outlines the installation of a virtual machine running Windows 10, then using commands in CMD.<br />
 
